@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/powerpulse-fitness/static/css/main.9e80cb8a.css",
+    "main.js": "/powerpulse-fitness/static/js/main.26396bc3.js",
+    "index.html": "/powerpulse-fitness/index.html",
+    "main.9e80cb8a.css.map": "/powerpulse-fitness/static/css/main.9e80cb8a.css.map",
+    "main.26396bc3.js.map": "/powerpulse-fitness/static/js/main.26396bc3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e80cb8a.css",
+    "static/js/main.26396bc3.js"
+  ]
+}
