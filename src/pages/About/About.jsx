@@ -19,15 +19,15 @@ const about = [
 const About = () => {
   return (
     <>
-      <section className="flex justify-center items-center p-5 gap-5 bg-secondary">
+      <section className=" grid lg:flex justify-center items-center p-5 gap-5 bg-secondary">
         <div className="">
           <img
             src="https://images.pexels.com/photos/1431282/pexels-photo-1431282.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt=""
-            className="rounded-3xl shadow-lg h-[650px]"
+            className="rounded-3xl shadow-lg lg:h-[650px]"
           />
         </div>
-        <div className="w-[50%] grid gap-7">
+        <div className="lg:w-[50%] grid gap-7">
           {about.map((data) => (
             <div>
               <h2 className="font-main font-bold text-4xl border-b-2">

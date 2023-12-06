@@ -40,7 +40,7 @@ const GymStaff = () => {
             <img
               src={item.imageUrl}
               alt={`Fitness Class ${index + 1}`}
-              className="w-full h-[400px] object-cover"
+              className="w-full h-[400px] object-cover select-none"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 bg-yelllow bg-opacity-50  text-white font-info">
               <p className="text-2xl font-extrabold">{item.caption}</p>

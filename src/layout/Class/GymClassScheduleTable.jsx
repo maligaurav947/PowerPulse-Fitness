@@ -45,8 +45,8 @@ const GymClassScheduleTable = () => {
   return (
     <div className="grid justify-center mt-8">
       <Title title="Class Schedules" />
-      <div className="flex items-center justify-center gap-10 font-info">
-        <table className="bg-white border border-gray-300 shadow-md rounded-lg overflow-hidden w-[50%]">
+      <div className="lg:flex  grid items-center justify-center gap-10 font-info">
+        <table className="bg-white border border-gray-300 shadow-md rounded-lg overflow-hidden lg:w-[50%]">
           <thead>
             <tr className="bg-blue-500 text-white">
               <th className="border-b p-4 text-left">Time</th>
@@ -73,13 +73,11 @@ const GymClassScheduleTable = () => {
         </table>
 
         <iframe
-          width="600"
-          height="350"
           src="https://www.youtube.com/embed/Eml2xnoLpYE?si=_oNtH44-V0nz2Vjh"
           title="YouTube video player"
           frameborder="0"
           allow="autoplay; accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          className="rounded-2xl"
+          className="rounded-2xl lg:w-[600px] lg:h-[350px] w-screen h-48 lg:grid hidden"
         ></iframe>
       </div>
     </div>

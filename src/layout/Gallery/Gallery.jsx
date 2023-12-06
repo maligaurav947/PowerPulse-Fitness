@@ -84,9 +84,9 @@ const Gallery = () => {
             <img
               src={image.src}
               alt={image.alt}
-              className="w-[300px] h-[150px] object-cover transition-transform duration-300 transform rounded-2xl"
+              className="lg:w-[300px] lg:h-[150px] object-cover transition-transform duration-300 transform rounded-2xl select-none"
             />
-            <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-yelllow bg-opacity-75 text-white">
+            <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-background bg-opacity-75 text-white">
               <p className="text-lg font-semibold">{image.text}</p>
             </div>
           </div>
