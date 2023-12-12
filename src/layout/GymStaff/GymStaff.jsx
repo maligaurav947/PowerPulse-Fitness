@@ -34,7 +34,7 @@ const GymStaff = () => {
     <div className="container mx-auto mt-8">
       <Title title="People Will Help You" />
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8  p-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 p-5">
         {galleryData.map((item, index) => (
           <div key={index} className="relative overflow-hidden rounded-lg ">
             <img
@@ -42,7 +42,7 @@ const GymStaff = () => {
               alt={`Fitness Class ${index + 1}`}
               className="w-full h-[400px] object-cover select-none"
             />
-            <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 bg-yelllow bg-opacity-50  text-white font-info">
+            <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 bg-background bg-opacity-50  text-white font-info">
               <p className="text-2xl font-extrabold">{item.caption}</p>
               <p className="text-xl">{item.role}</p>
             </div>
