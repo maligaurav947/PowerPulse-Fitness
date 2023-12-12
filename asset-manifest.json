@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/powerpulse-fitness/static/css/main.3ab7e1c4.css",
-    "main.js": "/powerpulse-fitness/static/js/main.c5ef8122.js",
+    "main.css": "/powerpulse-fitness/static/css/main.0c1f3a4a.css",
+    "main.js": "/powerpulse-fitness/static/js/main.d7ebd7fe.js",
     "index.html": "/powerpulse-fitness/index.html",
-    "main.3ab7e1c4.css.map": "/powerpulse-fitness/static/css/main.3ab7e1c4.css.map",
-    "main.c5ef8122.js.map": "/powerpulse-fitness/static/js/main.c5ef8122.js.map"
+    "main.0c1f3a4a.css.map": "/powerpulse-fitness/static/css/main.0c1f3a4a.css.map",
+    "main.d7ebd7fe.js.map": "/powerpulse-fitness/static/js/main.d7ebd7fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ab7e1c4.css",
-    "static/js/main.c5ef8122.js"
+    "static/css/main.0c1f3a4a.css",
+    "static/js/main.d7ebd7fe.js"
   ]
 }
